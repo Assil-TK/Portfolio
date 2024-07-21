@@ -12,7 +12,7 @@
             /* Typed.js */
             console.log("Initializing typed.js");
             $(".typing").typed({
-                strings: ["I am Assil Tekaya", "A computer Science student", "Welcome to my Portfolio !"],    
+                strings: ["","","I am Assil Tekaya", "A computer Science student", "Welcome to my Portfolio !"],    
                 typeSpeed: 50
             });
         });
