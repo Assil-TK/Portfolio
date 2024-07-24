@@ -431,7 +431,7 @@ body.loaded #preloader{
 .navigation-background {
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    background: #000;
+    background: #bb789d;
 }
 
 .navigation-background .logo {
@@ -450,6 +450,40 @@ body.loaded #preloader{
 .navigation-background .navigation-menu .navbar-nav li a:hover {
     color: #fff;
 }
+
+
+/* About Me */
+
+.about-section {
+	overflow: hidden;
+	background-color: #F9F9F9;
+}
+
+.about-section img {
+	position: absolute;
+}
+
+.about-me {}
+
+.about-me h2 {
+	padding: 0px 50px;
+}
+
+.about-me p {
+	padding: 50px;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Useful Classes */
