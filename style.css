@@ -453,27 +453,55 @@ body.loaded #preloader{
 
 
 /* About Me */
-
 .about-section {
-	overflow: hidden;
-	background-color: #F9F9F9;
+    overflow: hidden;
+    background-color: #F9F9F9;
 }
 
 .about-section img {
-	position: absolute;
+    position: absolute;
 }
 
 .about-me {}
 
 .about-me h2 {
-	padding: 0px 50px;
+    padding: 0px 50px;
 }
 
 .about-me p {
-	padding: 50px;
-	font-size: 15px;
+    padding: 50px;
+    font-size: 15px;
 }
 
+.AbIMG {
+    position: relative;
+    text-align: center; /* Center align the images in their container */
+}
+
+.shapee {
+    width: 86%; /* Adjust the percentage to resize the image */
+    position: absolute;
+    top: 90px; /* Move the image down */
+    left: 20%;
+    transition: top 1s, transform 1s; /* Ensure smooth transition */
+}
+
+.Assil {
+    width: 74%; /* Adjust the percentage to resize the image */
+    position: absolute;
+    top: 90px; /* Move the image down */
+    left: 19%;
+    transition: transform 1s; /* Ensure smooth transition */
+}
+
+.AbIMG:hover .shapee {
+    top: 130px; /* Move the image further down */
+    transform: rotateX(-10);
+}
+
+.AbIMG:hover .Assil {
+    transform: scale(1.1); /* Zoom the image */
+}
 
 
 
