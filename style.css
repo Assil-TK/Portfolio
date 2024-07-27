@@ -396,6 +396,7 @@ body.loaded #preloader{
     letter-spacing: 6px;
     font-weight: 900;
     font-size: 14px;
+    
 }
 
 .navigation-menu .navbar-nav li a {
@@ -462,15 +463,21 @@ body.loaded #preloader{
     position: absolute;
 }
 
-.about-me {}
-
-.about-me h2 {
-    padding: 0px 50px;
+.about-me h1 {
+    font-family: 'Poppins', sans-serif; /* Apply the Poppins font */
+    padding: 10px 50px; /* Adjust padding to ensure proper spacing */
+    margin-bottom: 33px; /* Adjust margin-bottom to increase space between heading and paragraph */
+    margin-left: -66px;
+    margin-top: 11px;
+    
 }
 
 .about-me p {
-    padding: 50px;
+    padding: 20px 50px; /* Adjust padding for space inside the paragraph */
+    margin-left: -66px; /* Move the paragraph further to the left */
     font-size: 15px;
+    margin-right: 20px; /* Optional: Ensure space on the right side as well */
+    margin-top: -46px;
 }
 
 .AbIMG {
@@ -479,29 +486,31 @@ body.loaded #preloader{
 }
 
 .shapee {
-    width: 86%; /* Adjust the percentage to resize the image */
+    width: 120%; /* Adjust the percentage to resize the image */
     position: absolute;
-    top: 90px; /* Move the image down */
-    left: 20%;
-    transition: top 1s, transform 1s; /* Ensure smooth transition */
+    top: 100px; /* Move the image down */
+    left: -88px; /* Move the image to the left initially */
+    transition: top 1s,  transform 1s; /* Ensure smooth transition */
 }
 
 .Assil {
-    width: 74%; /* Adjust the percentage to resize the image */
+    width: 100%; /* Adjust the percentage to resize the image */
     position: absolute;
-    top: 90px; /* Move the image down */
-    left: 19%;
+    top: 155px; /* Move the image down */
+    left: -20px; /* Position the image from the left edge */
     transition: transform 1s; /* Ensure smooth transition */
 }
 
 .AbIMG:hover .shapee {
     top: 130px; /* Move the image further down */
-    transform: rotateX(-10);
+     /* Adjust the left position on hover if needed */
+    transform: rotateX(-10deg); /* Ensure proper degree value */
 }
 
 .AbIMG:hover .Assil {
     transform: scale(1.1); /* Zoom the image */
 }
+
 
 
 
