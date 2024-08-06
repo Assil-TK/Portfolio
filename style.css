@@ -28,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -81,111 +81,119 @@ fieldset {
     margin-top: 0;
     font-weight: 600;
     border-bottom: 4px double #24b662;
-	border-radius: 25px;
+    border-radius: 25px;
     font-size: 30px;
     margin: 0 auto;
     padding: 10px 0;
     width: 350px;
-	margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .section-title p {
     font-weight: 400;
-	line-height: 25px;
-	margin-bottom: 40px;
+    line-height: 25px;
+    margin-bottom: 40px;
 }
 
 .bg-cover {
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 
 .grabbing {
-	cursor: url(../images/owl-carousel/grabbing.png) 8 8, move;
+    cursor: url(../images/owl-carousel/grabbing.png) 8 8, move;
 }
 
+.containerButton {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .button {
-	border: none;
-	font-family: inherit;
-	font-size: inherit;
-	color: inherit;
-	background: none;
-	cursor: pointer;
-	padding: 25px 80px;
-	display: inline-block;
-	margin: 15px 30px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 700;
-	outline: none;
-	position: relative;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: #a1d075;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: flex;
+    margin-top: 2.5%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .button:after {
-	content: '';
-	position: absolute;
-	z-index: -1;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 
 .button:before {
-	font-family: 'FontAwesome';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-	position: relative;
-	-webkit-font-smoothing: antialiased;
+    font-family: 'FontAwesome';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
 }
 
 .button-style {
-	border-radius: 50px;
-	border: 3px solid #fff;
-	color: #fff;
-	overflow: hidden;
+    border-radius: 50px;
+    border: 3px solid #fff;
+    color: #fff;
+    overflow: hidden;
 }
 
 .button-style:hover,
 .button-style:active,
 .button-style:focus {
-	background: #24b662;
-	color: #ffffff !important;
+    background: #24b662;
+    color: #ffffff !important;
 }
 
 .button-style:before {
-	position: absolute;
-	height: 100%;
-	font-size: 125%;
-	line-height: 3.5;
-	color: #fff;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
+    position: absolute;
+    height: 100%;
+    font-size: 125%;
+    line-height: 3.5;
+    color: #fcfafb;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .button-style:active:before {
-	color: #17954c;
+    color: #17954c;
 }
 
 .button-style-icon:before {
-	left: 130%;
-	top: -2px;
+    left: 130%;
+    top: -2px;
 }
 
 .button-style-icon:hover:before {
-	left: 80%;
+    left: 80%;
 }
 
 .button-style-dark {
-	border: 3px solid #000000 !important;
-	color: #000000;
+    border: 3px solid #000000 !important;
+    color: #000000;
 }
 
 
@@ -205,12 +213,12 @@ fieldset {
     transition: all .5s ease;
 }
 
-body.loaded #preloader{
+body.loaded #preloader {
     opacity: 0;
     visibility: hidden;
 }
 
-.loader{
+.loader {
     display: block;
     position: relative;
     left: 50%;
@@ -225,7 +233,7 @@ body.loaded #preloader{
     animation: spin 2s linear infinite;
 }
 
-.loader:before{
+.loader:before {
     content: "";
     position: absolute;
     top: 5px;
@@ -239,7 +247,7 @@ body.loaded #preloader{
     animation: spin 3s linear infinite;
 }
 
-.loader:after{
+.loader:after {
     content: "";
     position: absolute;
     top: 15px;
@@ -254,11 +262,12 @@ body.loaded #preloader{
 }
 
 @-webkit-keyframes spin {
-    0%   {
+    0% {
         -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
         transform: rotate(0deg);
     }
+
     100% {
         -webkit-transform: rotate(360deg);
         -ms-transform: rotate(360deg);
@@ -267,11 +276,12 @@ body.loaded #preloader{
 }
 
 @keyframes spin {
-    0%   {
+    0% {
         -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
         transform: rotate(0deg);
     }
+
     100% {
         -webkit-transform: rotate(360deg);
         -ms-transform: rotate(360deg);
@@ -294,18 +304,21 @@ body.loaded #preloader{
 
 
     height: 100%;
-    
-    
+
+
 }
+
 @keyframes gradient-animation {
     0% {
-     background-position: 0% 50%;
+        background-position: 0% 50%;
     }
+
     50% {
-      background-position: 100% 50%;
+        background-position: 100% 50%;
     }
+
     100% {
-     background-position: 0% 50%;
+        background-position: 0% 50%;
     }
 }
 
@@ -344,33 +357,57 @@ body.loaded #preloader{
     color: #f8f8f8;
     letter-spacing: 4px;
     font-size: 15px;
-	margin-top: 40px;
-	margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
-.typed-cursor{
+.typed-cursor {
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
 }
 
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .header-top-area {
@@ -396,7 +433,7 @@ body.loaded #preloader{
     letter-spacing: 6px;
     font-weight: 900;
     font-size: 14px;
-    
+
 }
 
 .navigation-menu .navbar-nav li a {
@@ -464,53 +501,118 @@ body.loaded #preloader{
 }
 
 .about-me h1 {
-    font-family: 'Poppins', sans-serif; /* Apply the Poppins font */
-    padding: 10px 50px; /* Adjust padding to ensure proper spacing */
-    margin-bottom: 33px; /* Adjust margin-bottom to increase space between heading and paragraph */
+    font-family: "Francois One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px 50px;
+    /* Adjust padding to ensure proper spacing */
+    margin-bottom: 33px;
+    /* Adjust margin-bottom to increase space between heading and paragraph */
     margin-left: -66px;
     margin-top: 11px;
-    
+
 }
 
 .about-me p {
-    padding: 20px 50px; /* Adjust padding for space inside the paragraph */
-    margin-left: -66px; /* Move the paragraph further to the left */
+    padding: 20px 50px;
+    /* Adjust padding for space inside the paragraph */
+    margin-left: -66px;
+    /* Move the paragraph further to the left */
     font-size: 15px;
-    margin-right: 20px; /* Optional: Ensure space on the right side as well */
+    margin-right: 20px;
+    /* Optional: Ensure space on the right side as well */
     margin-top: -46px;
 }
 
 .AbIMG {
     position: relative;
-    text-align: center; /* Center align the images in their container */
+    text-align: center;
+    /* Center align the images in their container */
 }
 
 .shapee {
-    width: 120%; /* Adjust the percentage to resize the image */
+    width: 120%;
+    /* Adjust the percentage to resize the image */
     position: absolute;
-    top: 100px; /* Move the image down */
-    left: -88px; /* Move the image to the left initially */
-    transition: top 1s,  transform 1s; /* Ensure smooth transition */
+    top: 100px;
+    /* Move the image down */
+    left: -88px;
+    /* Move the image to the left initially */
+    transition: top 1s, transform 1s;
+    /* Ensure smooth transition */
 }
 
 .Assil {
-    width: 100%; /* Adjust the percentage to resize the image */
+    width: 100%;
+    /* Adjust the percentage to resize the image */
     position: absolute;
-    top: 155px; /* Move the image down */
-    left: -20px; /* Position the image from the left edge */
-    transition: transform 1s; /* Ensure smooth transition */
+    top: 155px;
+    /* Move the image down */
+    left: -20px;
+    /* Position the image from the left edge */
+    transition: transform 1s;
+    /* Ensure smooth transition */
 }
 
 .AbIMG:hover .shapee {
-    top: 130px; /* Move the image further down */
-     /* Adjust the left position on hover if needed */
-    transform: rotateX(-10deg); /* Ensure proper degree value */
+    top: 130px;
+    /* Move the image further down */
+    /* Adjust the left position on hover if needed */
+    transform: rotateX(-10deg);
+    /* Ensure proper degree value */
 }
 
 .AbIMG:hover .Assil {
-    transform: scale(1.1); /* Zoom the image */
+    transform: scale(1.1);
+    /* Zoom the image */
 }
 
+.aboutmeP {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: -8%;
+}
+
+.info-list {
+    list-style-type: none;
+    /* Removes default list markers */
+    padding: 0;
+    /* Removes default padding */
+    margin: 0;
+    /* Removes default margin */
+    font-family: Arial, sans-serif;
+    /* Optional: set font */
+}
+
+.info-list li {
+    margin: 5px 0;
+    /* Adds some spacing between list items */
+}
+
+.info-list li span {
+    font-weight: bold;
+    /* Makes the label bold */
+}
+
+.item-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.item-list li {
+    margin: 0 10px; /* Adjusts the spacing between items */
+    display: flex;
+    align-items: center;
+}
+.item-list li:not(:last-child)::after {
+    content: "|";
+    margin-left: 10px;
+}
+.item-list i {
+    margin-right: 5px;
+}
 
 
 
@@ -531,124 +633,124 @@ body.loaded #preloader{
 /* Margin */
 
 .margin-0 {
-	margin: 0px !important;
+    margin: 0px !important;
 }
 
 /* Margin Top */
 
 .margin-top-0 {
-	margin-top: 0px !important;
+    margin-top: 0px !important;
 }
 
 .margin-top-10 {
-	margin-top: 10px !important;
+    margin-top: 10px !important;
 }
 
 .margin-top-20 {
-	margin-top: 20px !important;
+    margin-top: 20px !important;
 }
 
 .margin-top-30 {
-	margin-top: 30px !important;
+    margin-top: 30px !important;
 }
 
 .margin-top-40 {
-	margin-top: 40px !important;
+    margin-top: 40px !important;
 }
 
 .margin-top-50 {
-	margin-top: 50px !important;
+    margin-top: 50px !important;
 }
 
 .margin-top-60 {
-	margin-top: 60px !important;
+    margin-top: 60px !important;
 }
 
 .margin-top-70 {
-	margin-top: 70px !important;
+    margin-top: 70px !important;
 }
 
 .margin-top-80 {
-	margin-top: 80px !important;
+    margin-top: 80px !important;
 }
 
 .margin-top-90 {
-	margin-top: 90px !important;
+    margin-top: 90px !important;
 }
 
 .margin-top-100 {
-	margin-top: 100px !important;
+    margin-top: 100px !important;
 }
 
 .margin-top-120 {
-	margin-top: 120px !important;
+    margin-top: 120px !important;
 }
 
 .margin-top-150 {
-	margin-top: 150px !important;
+    margin-top: 150px !important;
 }
 
 .margin-top-200 {
-	margin-top: 200px !important;
+    margin-top: 200px !important;
 }
 
 
 /* Margin Bottom */
 
 .margin-bottom-0 {
-	margin-bottom: 0px !important;
+    margin-bottom: 0px !important;
 }
 
 .margin-bottom-10 {
-	margin-bottom: 10px !important;
+    margin-bottom: 10px !important;
 }
 
 .margin-bottom-20 {
-	margin-bottom: 20px !important;
+    margin-bottom: 20px !important;
 }
 
 .margin-bottom-30 {
-	margin-bottom: 30px !important;
+    margin-bottom: 30px !important;
 }
 
 .margin-bottom-40 {
-	margin-bottom: 40px !important;
+    margin-bottom: 40px !important;
 }
 
 .margin-bottom-50 {
-	margin-bottom: 50px !important;
+    margin-bottom: 50px !important;
 }
 
 .margin-bottom-60 {
-	margin-bottom: 60px !important;
+    margin-bottom: 60px !important;
 }
 
 .margin-bottom-70 {
-	margin-bottom: 70px !important;
+    margin-bottom: 70px !important;
 }
 
 .margin-bottom-80 {
-	margin-bottom: 80px !important;
+    margin-bottom: 80px !important;
 }
 
 .margin-bottom-90 {
-	margin-bottom: 90px !important;
+    margin-bottom: 90px !important;
 }
 
 .margin-bottom-100 {
-	margin-bottom: 100px !important;
+    margin-bottom: 100px !important;
 }
 
 .margin-bottom-120 {
-	margin-bottom: 120px !important;
+    margin-bottom: 120px !important;
 }
 
 .margin-bottom-150 {
-	margin-bottom: 150px !important;
+    margin-bottom: 150px !important;
 }
 
 .margin-bottom-200 {
-	margin-bottom: 200px !important;
+    margin-bottom: 200px !important;
 }
 
 
@@ -656,123 +758,123 @@ body.loaded #preloader{
 /* Padding */
 
 .padding-0 {
-	padding: 0px !important;
+    padding: 0px !important;
 }
 
 
 /* Padding Top */
 
 .padding-top-0 {
-	padding-top: 0px !important;
+    padding-top: 0px !important;
 }
 
 .padding-top-10 {
-	padding-top: 10px !important;
+    padding-top: 10px !important;
 }
 
 .padding-top-20 {
-	padding-top: 20px !important;
+    padding-top: 20px !important;
 }
 
 .padding-top-30 {
-	padding-top: 30px !important;
+    padding-top: 30px !important;
 }
 
 .padding-top-40 {
-	padding-top: 40px !important;
+    padding-top: 40px !important;
 }
 
 .padding-top-50 {
-	padding-top: 50px !important;
+    padding-top: 50px !important;
 }
 
 .padding-top-60 {
-	padding-top: 60px !important;
+    padding-top: 60px !important;
 }
 
 .padding-top-70 {
-	padding-top: 70px !important;
+    padding-top: 70px !important;
 }
 
 .padding-top-80 {
-	padding-top: 80px !important;
+    padding-top: 80px !important;
 }
 
 .padding-top-90 {
-	padding-top: 90px !important;
+    padding-top: 90px !important;
 }
 
 .padding-top-100 {
-	padding-top: 100px !important;
+    padding-top: 100px !important;
 }
 
 .padding-top-120 {
-	padding-top: 120px !important;
+    padding-top: 120px !important;
 }
 
 .padding-top-150 {
-	padding-top: 150px !important;
+    padding-top: 150px !important;
 }
 
 .padding-top-200 {
-	padding-top: 200px !important;
+    padding-top: 200px !important;
 }
 
 
 /* Padding Bottom */
 
 .padding-bottom-0 {
-	padding-bottom: 0px !important;
+    padding-bottom: 0px !important;
 }
 
 .padding-bottom-10 {
-	padding-bottom: 10px !important;
+    padding-bottom: 10px !important;
 }
 
 .padding-bottom-20 {
-	padding-bottom: 20px !important;
+    padding-bottom: 20px !important;
 }
 
 .padding-bottom-30 {
-	padding-bottom: 30px !important;
+    padding-bottom: 30px !important;
 }
 
 .padding-bottom-40 {
-	padding-bottom: 40px !important;
+    padding-bottom: 40px !important;
 }
 
 .padding-bottom-50 {
-	padding-bottom: 50px !important;
+    padding-bottom: 50px !important;
 }
 
 .padding-bottom-60 {
-	padding-bottom: 60px !important;
+    padding-bottom: 60px !important;
 }
 
 .padding-bottom-70 {
-	padding-bottom: 70px !important;
+    padding-bottom: 70px !important;
 }
 
 .padding-bottom-80 {
-	padding-bottom: 80px !important;
+    padding-bottom: 80px !important;
 }
 
 .padding-bottom-90 {
-	padding-bottom: 90px !important;
+    padding-bottom: 90px !important;
 }
 
 .padding-bottom-100 {
-	padding-bottom: 100px !important;
+    padding-bottom: 100px !important;
 }
 
 .padding-bottom-120 {
-	padding-bottom: 120px !important;
+    padding-bottom: 120px !important;
 }
 
 .padding-bottom-150 {
-	padding-bottom: 150px !important;
+    padding-bottom: 150px !important;
 }
 
 .padding-bottom-200 {
-	padding-bottom: 200px !important;
+    padding-bottom: 200px !important;
 }
