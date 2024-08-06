@@ -100,7 +100,7 @@ fieldset {
 }
 
 .grabbing {
-    cursor: url(../images/owl-carousel/grabbing.png) 8 8, move;
+    cursor: url() 8 8, move;
 }
 
 .containerButton {
@@ -488,6 +488,19 @@ body.loaded #preloader {
 .navigation-background .navigation-menu .navbar-nav li a:hover {
     color: #fff;
 }
+.icons {
+    display: flex;
+    justify-content: baseline;
+    gap: 20px; /* Adjust the gap between icons */
+    margin-top: 40px;
+}
+.icons img {
+    width: 30px; /* Adjust size of the icons */
+    height: 30px; /* Adjust size of the icons */
+}
+
+
+
 
 
 /* About Me */
@@ -584,7 +597,7 @@ body.loaded #preloader {
     /* Removes default margin */
     font-family: Arial, sans-serif;
     /* Optional: set font */
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .info-list li {
