@@ -536,7 +536,7 @@ body.loaded #preloader {
     margin-bottom: 33px;
     /* Adjust margin-bottom to increase space between heading and paragraph */
     margin-left: -2%;
-    margin-top: 33px;
+    margin-top: -4%;
 
 }
 
@@ -595,10 +595,17 @@ body.loaded #preloader {
 }
 
 .aboutmeP {
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-top: -8%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 0%;
+    margin-bottom: 2.4%;
 }
+
+.aboutbig {
+    margin-top: 5%;
+}
+
+
 
 .info-list {
     list-style-type: none;
@@ -610,11 +617,11 @@ body.loaded #preloader {
     /* Removes default margin */
     font-family: Arial, sans-serif;
     /* Optional: set font */
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .info-list li {
-    margin: 5px 0;
+    margin: 13px 0;
     /* Adds some spacing between list items */
 }
 
@@ -629,10 +636,13 @@ body.loaded #preloader {
     margin: 0;
     margin-right: 28%;
     margin-left: 6%;
+    margin-bottom: 3%;
+    margin-top: 4%;
     font-family: Arial, sans-serif;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start; /* Align items to the start */
+    font-size: 18px;
 }
 .item-list li {
     display: flex;
@@ -738,8 +748,23 @@ body.loaded #preloader {
     text-align: center;
     font-size: 33px;
 }
-
-
+.section-title5 h2 {
+    font-family: "Francois One", sans-serif;
+    
+    font-style: normal;
+    font-size: 55px;
+    padding: 10px 50px;
+    /* Adjust padding to ensure proper spacing */
+    margin-bottom: 22px;
+    /* Adjust margin-bottom to increase space between heading and paragraph */
+    margin-left: -2%;
+    margin-top: 33px;
+}
+.section-title5 {
+    text-align: center;
+    font-size: 33px;
+    margin-bottom: 8%;
+}
 
 /* Portfolio */
 
@@ -864,6 +889,96 @@ ul.portfolio li.active {
 
 
 
+
+/* Contact Us */
+
+.contact-us {
+	background-color: #f9f9f9;
+}
+
+
+.contact-us-detail:hover img {
+	box-shadow: 0px 8px 15px 0px rgba(90, 91, 95, 0.33);
+    margin-top: -5px;
+}
+
+.contact-us-detail a {
+	color: #333;
+}
+
+.contact-us-detail a:hover {
+	color: #333;
+}
+
+.contact-us-detail img {
+	font-size: 30px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+	transition: all 0.3s ease-in-out;
+    width: 88px;
+    height: 88px;
+    line-height: 88px;
+}
+
+
+/* Footer */
+
+.footer-section {
+    background: #000;
+    padding: 80px 0px;
+    color: #f8f8f8;
+}
+
+.footer-section p {
+    font-size: 14px;
+}
+
+.footer-section a {
+    color: #ffffff;
+}
+/* Scroll To Top */
+
+.scroll-to-top {
+    background-color: #24b662;
+    display: none;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    right: 0px;
+    bottom: 50px;
+    z-index: 999;
+}
+
+.scroll-to-top:hover,
+.scroll-to-top:focus {
+    background-color: #1bab58;
+    color: #ffffff;
+}
+.testimonial-carousel-list {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+	box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+    transition: all 0.3s ease-in-out;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 0%;
+}
+
+.testimonial-carousel-list:hover {
+    box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+    top: -5px;
+}
+.testimonial-word img {
+	margin: 0 auto;
+    max-width: 140px;
+}
 
 
 
